@@ -1,0 +1,11 @@
+image: linalinn/python-deb-builder:latest
+manifests:
+  - image: linalinn/python-deb-builder:latest
+    platform:
+      architecture: amd64
+      os: linux
+  - image: linalinn/python-deb-builder:latest
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
